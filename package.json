@@ -1,0 +1,21 @@
+{
+  "name": "demoo",
+  "version": "1.0.0",
+  "description": "demo for learning node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon  ./index.js --exec babel-node -e js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.14",
+    "nodemon": "^2.0.4"
+  }
+}
